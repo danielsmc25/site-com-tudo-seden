@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #FF8C00;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+}
+
+header .logo img {
+    width: 250px;
+    margin-right: 500px;
+}
+
+header nav ul {
+    list-style: none;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.nai-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.nai-logo img {
+    max-width: 500px;
+    height: auto;
+}
+
+/* .nai-description {
+    max-width: 600px;
+    text-align: left;
+} */
+
+.nai-description h2 {
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.nai-description p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .nai-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .nai-description {
+        max-width: 100%;
+    }
+}
+
+.services-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+    background-color: #002F6C;
+}
+
+.service-card {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.service-card img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.service-card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #002F6C;
+}
+
+.service-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .service-card {
+        width: 100%;
+        margin: 0 0 20px;
+    }
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .contato {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+footer .contato .info {
+    width: 30%;
+}
+
+footer .links {
+    margin-bottom: 20px;
+}
+
+footer .links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
